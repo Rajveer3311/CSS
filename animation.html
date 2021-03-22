@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation property</title>
+	<style type="text/css">
+		div{
+			height: 100px;
+			position: relative;
+			width: 100px;
+			top: 43px;
+			background-image:url(image/truck.jpg); 
+			background-position: center;
+		-webkit-animation: mymove 5s infinite;
+		 /*animation:mymove 8s infinite;*/
+		 -webkit-animation-direction:alternate;
+		  -webkit-animation-delay:2s;
+		}
+		@-webkit-keyframes mymove{
+			from{left: 0px;
+				}
+			to  {
+					left: 500px;
+				}
+		}
+	/*	@keyframes mymove{*/
+		/*	from{left: 0px;
+				}
+			to  {
+				 left: 500px;
+				}
+		}*/
+	</style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

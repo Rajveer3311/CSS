@@ -1,0 +1,80 @@
+*
+body{
+	margin: 0;
+	padding: 0;
+    background:#000;
+	height: 100vh;
+    font-family:cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
+	
+
+
+}
+
+div{
+	color: #111;
+	font-size: 16em;
+    margin: 0;
+	padding: 0;
+	
+
+}
+.one{
+	animation-delay: 0s;
+}
+ .two{
+	animation-delay: .25s;
+}
+ .three{
+	animation-delay: .5s;
+}
+ .four{
+	animation-delay: .75s;
+}
+ .five{
+	animation-delay: 1s;
+}
+ .six{
+	animation-delay: 1.25s;
+}
+ .seven{
+	animation-delay: 1.5s;
+}
+ .eight{
+	animation-delay: 1.75s;
+}
+div span{
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	animation: animate 2s linear infinite;
+
+}
+@keyframes animate{
+	0%,100%
+	{
+		color: #fff;
+		filter: blur(2px);
+		text-shadow: 0 0 10px #00b3ff,
+		            0 0  20px  #00b3ff,
+		            0 0  40px  #00b3ff,
+		            0 0  80px  #00b3ff,
+		            0 0 120px  #00b3ff,
+		            0 0 200px #00b3ff,
+		            0 0 300px #00b3ff,
+		            0 0 400px #00b3ff;
+	}
+	5%,95%
+	{
+		color: #111;
+		filter: blur(0px);
+		text-shadow: 0 0 0 none;
+	}
+}
+/*
+.one:hover{
+	color: red;
+}*/

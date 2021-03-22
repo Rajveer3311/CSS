@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sidebar</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	<style type="text/css">
+
+		nav{
+			background: #666;
+			height: 70px;
+
+		}
+		body{
+	  
+
+		}
+		.label{
+			color:white;
+			font-weight: bold;
+			font-size: 40px;
+			padding-top: 15px;
+			
+			top: 6px;
+			left:20px;
+			position: relative;
+		}
+		.a{
+			color: red;
+			background:#777;
+			margin-top: 8px;
+			padding-top: 40px;
+			padding-left: 40px;
+			position: fixed;
+			width: 300px;
+			height: 100%;
+			display:block;
+			line-height: 50px;   
+			font-size: 20px;
+			text-transform: uppercase;
+			text-decoration: none;
+			box-sizing:border-box;
+			
+
+            background-clip: padding-box;
+
+		}
+		.a>a{
+			font-size: 22px;
+			left: 0px;
+			right: 70px;
+			border-color: 10px solid blue;
+			padding: 5px 40px;
+			margin-top: -50px;
+			box-sizing: border-box;
+			position: absolute;
+		}
+		nav a:hover{
+			background:#19B3D3;
+			transition: .5s;
+			transition-property: background;
+		}
+		nav i{
+             padding-right: 10px;
+		}
+		.logout{
+			color: black;
+			border-style:solid;
+			background-color: wheat;
+			border: 2px solid red;
+			float:right;
+			padding-right: 10px;
+			padding-bottom: 0px;
+			
+			padding-left: 5px;
+		    position: relative;
+		    top: -30px;
+		    right: 12px;
+		}
+		.logout:hover{
+			background-color: white;
+			color: red;
+		}
+		.profile{
+			position: relative;
+			background-size: cover;
+			border-radius: 100px;
+			width: 180px;
+			height: 180px;
+			left:-22px;
+			top:-27px;
+		}
+		h4{
+		   position: relative;
+		   color: black;	
+           top:-70px;
+           left: -18px;
+		}
+		#bars{
+			position: fixed;
+			left:370px;
+			top:60px;
+			font-weight: bold;
+			font-size: 30px;
+			color: white;
+	        transition: .5s;
+	        transition-property: background;
+			z-index: 1;
+			cursor:pointer;
+		}
+		#bars:hover{color:#19B3D3;
+		}
+		label #check:checked ~.bars{
+			left: -145px;
+			position: relative;
+		}
+*/	</style>
+</head>
+<body>
+	<input type="checkbox" id="check">
+	<nav>
+    <label for="check">		
+	<i class="fa fa-bars"id="bars"></i>
+	</label>
+	<div class="label"><label for="logo">DesignR</label></div>
+	<div class="logout">logout</div>
+	<div class="a">
+	
+		    <center><img src="d.jpg"class="profile">
+		    	<h4>Rajveer</h4>
+		    </center> 
+			<a href="#"><i class="fa fa-home"></i><span>home</span></a><br>
+
+			<a href="#"><i class="fa fa-desktop"></i><span>desktop</span></a><br>
+			<a href="#"><i class="fa fa-building"></i><span>depart</span></a><br>
+			<a href="#"><i class="fa fa-phone-square"></i><span>contact</span></a><br>
+			<a href="#"><i class="fa fa-question-circle"></i><span>help</span></a><br>
+			<a href="#"><i class="fa fa-cogs" ></i><span>setting</span></a><br>
+		
+		</nav>
+	</div>
+	
+
+</body>
+</html>

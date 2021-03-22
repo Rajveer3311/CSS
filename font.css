@@ -1,0 +1,11 @@
+p{
+	font-style: normal;
+	line-height: -4;
+	/*letter-spacing: 4px;*/
+	/*word-spacing: 5px;*/
+	font-size: 60px;
+	font-weight: bold;
+    text-shadow: 2px 5px red;
+    text-transform: uppercase;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+
+        }
+        .text{
+        	width: 100vw;
+        	height: 100vh;
+        	background: #df34;
+        	position: relative;
+        	
+        }
+        .child{
+        	   position: absolute;
+               width: 60vw;
+               height: 60vh;
+               /*border: 3px solid red;*/
+               background-image:linear-gradient(225deg,rgba(255, 255, 255, 0.5) 50%,rgba(0,0,0,0.5)),  url(image/a.jpg);
+               background-position: center;
+               background-size: cover;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%,-50%);
+               box-shadow: 0 0 10px #00b3ff,
+		            0 0  20px  #00b3ff,
+		            0 0  40px  #00b3ff,
+		            0 0  80px  #00b3ff,
+		            0 0 120px    #00b3ff,
+		            0 0 200px #00b3ff,
+		            0 0 300px #00b3ff,
+		            0 0 400px #00b3ff;
+		            /*border-radius: 50%;*/
+		            
+        }
+    	</style>
+</head>
+<body>
+    
+     	<div class="text">
+     		<div class="child"></div>
+     	</div>
+
+	
+   
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.js"></script>
+</body>
+</html>

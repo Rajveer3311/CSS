@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello </title>
+</head>
+<body>
+	
+	<div id="check"class="black">
+		<p>hii this is ajay devgan.</p>
+	<!-- <p class="name"></p>	 -->
+	</div>
+	<script >
+		var a,b;
+        // b=document.createElement("p");
+        a=document.createTextNode("hii this is ajay.")
+		// a=document.createComment("hii this is raaj");
+		// console.log(a);
+        // b.appendChild(a);
+        var target=document.getElementById("check");
+		target.insertBefore(a,target.childNodes[-1]);
+
+	</script>
+</body>
+</html>

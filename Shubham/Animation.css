@@ -1,0 +1,37 @@
+div{
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+     
+    margin-top: 45px;
+    top: 30%;
+    left: 20%;
+
+    background-color: magenta;
+
+   
+
+}
+
+@keyframes changeShape{
+      from{
+          border-radius: 0%;
+      }
+
+      to{
+          border-radius: 50%;
+      }
+}
+
+div:hover{
+    background-color: rgb(96, 96, 155);
+    
+  
+    
+    animation: changeShape 1s ease-in-out infinite alternate;
+
+    transition: 1ms ease-in-out;
+    
+
+}
